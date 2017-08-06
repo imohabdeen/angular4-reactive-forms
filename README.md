@@ -1,6 +1,12 @@
 # Angular4ReactiveForms
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This project explains angular 4 reactive forms
+
+In a sense, instead of binding Object models to directives like template-driven forms, we in fact boot up our own instances inside a component class and construct our own JavaScript models. This has much more power and is extremely productive to work with as it allows us to write expressive code, that is very testable and keeps all logic in the same place, instead of scattering it around different form templates.
+
+FormControl is a class that powers an individual form control, tracks the value and validation status
+FormGroup is a group of FormControl instances, also keeps track of the value and validation status 
 
 ## Development server
 
